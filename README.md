@@ -58,6 +58,12 @@ Mechanics Explorer renders the actual rigid-body simulation, confirming the GUI 
 
 ---
 
+## Simulation in motion
+
+![Simulation animation](images/simulation_demo.gif)
+
+---
+
 ## Two interfaces, one validated controller
 
 The same `KinovaCollisionFree.slx` model is driven from both a MATLAB App Designer GUI and a Python PyQt6 GUI (Python calls MATLAB/Simulink via the engine API). Both produce matching results on identical tasks.
