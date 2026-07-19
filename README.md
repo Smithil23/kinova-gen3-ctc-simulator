@@ -1,4 +1,5 @@
 # Kinova Gen3 CTC Trajectory Simulator
+![CI](https://github.com/Smithil23/kinova-gen3-ctc-simulator/actions/workflows/ci.yml/badge.svg)
 
 A 7-DOF Kinova Gen3 robot trajectory simulator implementing **Computed Torque Control (CTC)**, with dual MATLAB and Python interfaces, full Simscape Multibody physics, and independently validated results.
 
