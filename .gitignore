@@ -1,7 +1,38 @@
-*.asv 
-*.slxc 
-slprj/ 
-*.autosave 
-codegen/ 
-*.txt 
-ghp_* 
+# ── Original entries (kept exactly) ───────────────────────────────────────────
+*.asv
+*.slxc
+slprj/
+*.autosave
+codegen/
+*.txt
+ghp_*
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Teleop session data ────────────────────────────────────────────────────────
+# Recorded sessions (CSV/MAT) are data outputs, not source code.
+teleop_sessions/
+
+# ── MATLAB additional ──────────────────────────────────────────────────────────
+*.mex*
+work/
+
+# ── Generated data ─────────────────────────────────────────────────────────────
+*.csv
+*.log
+
+# ── OS junk ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+
+# ── Keep these regardless ─────────────────────────────────────────────────────
+!*.md
+!requirements.txt
